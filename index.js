@@ -1,5 +1,5 @@
 const express = require('express');
-let myspl = require('mysql');
+let myspl = require('mysql2');
 const app = express();
 const PORT = 3000;
 app.use (express.json());
